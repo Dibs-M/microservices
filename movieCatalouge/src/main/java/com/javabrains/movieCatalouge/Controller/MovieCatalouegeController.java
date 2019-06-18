@@ -45,7 +45,7 @@ public class MovieCatalouegeController {
 
 	}
 	
-	@PostMapping(value="/getAllMov")
+	@PostMapping(value="/getAllMovie")
 	Map<String,Object> getAllMovie()
 	{
 		Map<String,Object> response= new HashMap<>();
