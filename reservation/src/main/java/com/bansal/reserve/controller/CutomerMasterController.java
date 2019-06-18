@@ -26,6 +26,7 @@ public class CutomerMasterController {
 			status=customerMasterService.savebookingDetails(customerMaster);
 		}
 		if(status.equals("success")) {return "index";}
+		System.out.println("hi");
 		return "index";
 	}
 }
