@@ -28,6 +28,10 @@ public class ApplicationController {
 	public String saveBookingDetails(Model model) {
 		return "index";
 	}
+	@RequestMapping(value = "/saveBookinails")
+	public String tyuiiooo(Model model) {
+		return "index";
+	}
 
 	@RequestMapping(value = { "/about", "/blog", "/booking", "/contact", "/elements" ,"/index"}, method = RequestMethod.GET)
 	public String pageRedirect(HttpServletRequest request) {
