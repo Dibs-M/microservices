@@ -21,7 +21,7 @@ public class MovieCatalouegeController {
 	private MovieCatalougeService movieCatalougeservice;
 
 	
-	@PostMapping(value="/saveM")
+	@PostMapping(value="/saveMovies")
 	Map<String,Object> saveMovie( @RequestBody  MovieCatalougeModel movie,HttpServletRequest request)
 	{
 		Map<String,Object> response= new HashMap<>();
